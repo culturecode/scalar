@@ -41,6 +41,45 @@ CKEDITOR.editorConfig = function( config ) {
 	config.enterMode = CKEDITOR.ENTER_BR;
 	// %REMOVE_END%
 
+	config.specialChars = [
+	  // Combining Characters
+	  ['&#x301;', 'Combining Acute Accent'],
+	  ['&#x300;', 'Combining Grave Accent'],
+	  ['&#x313;', 'Combining Comma Above'],
+	  ['&#x315;', 'Combining Comma Above Right'],
+	  ['&#x30C;', 'Combining Caron'],
+	  ['&#x331;', 'Combining Macron Below'],
+	  ['&#x304;', 'Combining Macron'],
+	  ['&#x308;', 'Combining Diaresis Above'],
+	  ['&#x324;', 'Combining Diaeresis Below'],
+	  ['&#x323;', 'Combining Dot Below'],
+	  ['&#x328;', 'Combining Ogonek'],
+
+	  // Spacing Modifier Letters
+	  ['&#x1DBF;', 'Modifier Letter Small Theta'],
+	  ['&#x2B7;', 'Modifier Letter Small W'],
+	  ['&#x1DBB;', 'Modifier Letter Small Z'],
+	  ['&#x1D4B;', 'Modifier Letter Small Open E'],
+	  ['&#x1D58;', 'Modifier Letter Small U'],
+	  ['&#x2B8;', 'Modifier Letter Small Y'],
+
+	  // Other Characters
+	  ['&#x259;', 'Latin Small Letter Schwa'],
+	  ['&#x25B;', 'Latin Small Letter Open E'],
+	  ['&#xE6;', 'Latin Small Letter Ae'],
+	  ['&#x2022;', 'Bullet'],
+	  ['&#x3B8;', 'Greek Small Letter Theta'],
+	  ['&#x3BB;', 'Greek Small Letter Lambda'],
+	  ['&#x19B;', 'Latin Small Letter Lambda with Stroke'],
+	  ['&#x26C;', 'Latin Small Letter L with Belt'],
+	  ['&#x3C7;', 'Greek Small Letter Chi'],
+	  ['&#x294;', 'Latin Letter Glottal stop'],
+	  ['&#x1E5;', 'Latin Small Letter G With Stroke'],
+	  ['&#x1E4;', 'Latin Capital G With Stroke'],
+	  ['&#x166;', 'Latin Capital T With Stroke'],
+	  ['&#x167;', 'Latin Small Letter T With Stroke']
+	];
+
 	config.toolbar = 'Scalar';
 
 	config.toolbar_Scalar =
